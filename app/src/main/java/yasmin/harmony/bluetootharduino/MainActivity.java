@@ -734,34 +734,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 plays = false;
             }
-        
-
         }
-
-
-
-  /*  public void tocaPorFavor(int mensagem){
-        if(mensagem == 1){
-            try {
-                if (mp.isPlaying()) {
-                    mp.stop();
-                }
-                mp.reset();
-                AssetFileDescriptor afd = null;
-                switch (v.getId()) {
-                    case R.id.btn:
-                        afd = getResources().openRawResourceFd(R.raw.som);
-                        break;
-                }
-                if (afd != null) {
-                    mp.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
-                    mp.prepareAsync();
-                }
-            } catch (IOException e) {
-                Log.e("", e.getMessage());
-            }
-        }
-    }*/
 
                 /* Se a mensagem não for um código de status,
                     então ela deve ser tratada pelo aplicativo
